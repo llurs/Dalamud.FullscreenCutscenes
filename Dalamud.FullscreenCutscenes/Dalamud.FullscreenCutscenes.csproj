@@ -9,4 +9,7 @@
     <PackageProjectUrl>https://github.com/goatcorp/SamplePlugin</PackageProjectUrl>
     <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
   </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Update="DalamudPackager" Version="15.0.0" />
+  </ItemGroup>
 </Project>
